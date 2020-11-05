@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transferir"
+    android:orientation="vertical"
+    android:background="#e0f7fa"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e0f7fa"
+        >
+
+        <TextView
+            android:id="@+id/tvusuariocuenta"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvcuentadestino2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvsaldodestino2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saldo: "
+            android:textStyle="bold"
+            android:textColor="#424242"
+            />
+
+        <TextView
+            android:id="@+id/tvsaldo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/btcerrar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesion"
+            android:textSize="10dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="#424242"
+            android:backgroundTint="#4dd0e1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titular de la cuenta: "
+            android:textStyle="bold"
+            android:textColor="#424242"
+            />
+
+        <TextView
+            android:id="@+id/tvtitular"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuenta Origen: "
+            android:textStyle="bold"
+            android:textColor="#424242"
+            />
+
+        <TextView
+            android:id="@+id/tvnrocuenta"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvtraercuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_horizontal"
+            android:text="Traer cuenta"
+            android:textColor="#424242"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuenta Destino: "
+            android:textStyle="bold"
+            android:textColor="#424242"
+            />
+
+        <EditText
+            android:id="@+id/etcuentadestino"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+
+            />
+        <TextView
+            android:id="@+id/tvtraercuentadestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_horizontal"
+            android:text="Verificar cuenta"
+            android:textSize="15dp"
+            android:textColor="#424242"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora: "
+            android:textStyle="bold"
+            android:textColor="#424242"
+            />
+
+        <TextView
+            android:id="@+id/tvhora"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha: "
+            android:textStyle="bold"
+            android:textColor="#424242"
+            />
+
+        <TextView
+            android:id="@+id/tvfecha"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor: "
+            android:textStyle="bold"
+            android:textColor="#424242"
+            />
+
+        <EditText
+            android:id="@+id/etvalor"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/bttransferir"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Transferir"
+            android:textSize="11dp"
+            android:textAllCaps="false"
+            android:layout_marginRight="10dp"
+            android:textColor="#424242"
+            android:backgroundTint="#00bcd4"
+
+            />
+
+        <Button
+            android:id="@+id/btcancelar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textSize="11dp"
+            android:textAllCaps="false"
+            android:textColor="#424242"
+            android:backgroundTint="#4dd0e1"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
