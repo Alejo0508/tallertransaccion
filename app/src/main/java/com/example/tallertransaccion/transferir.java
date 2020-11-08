@@ -251,7 +251,7 @@ public class transferir extends AppCompatActivity implements Response.Listener<J
                 Map<String, String> params = new HashMap<>();
                 params.put("nrocuenta", cuentadestino.getText().toString().trim());
                 params.put("fecha", fecha.getText().toString().trim());
-                params.put("saldo", total2.trim());;
+                params.put("saldo", total2.trim());
 
                 return params;
             }
